@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def print_last_digit(number):
+    print_last_digit.storage = []
+    last_digit = str(number)[-1]
+    print_last_digit.storage.append(last_digit)
+    return print_last_digit.storage
