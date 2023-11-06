@@ -5,4 +5,3 @@ def delete_at(my_list=[], idx=0):
         return my_list
     else:
         return my_list
-        
