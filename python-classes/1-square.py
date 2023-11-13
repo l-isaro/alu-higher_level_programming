@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-This module contains the class square that contains the attribute size
+this module contains a class called square
 """
-
 
 class Square:
     """
-    the following class defines attributes for an object square with the attribute size
+    This class contains the private attribute size
     """
     def __init__(self, size):
-    self.__size = size
+        self.__size = size
+        
