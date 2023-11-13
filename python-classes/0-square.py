@@ -4,5 +4,5 @@
 
 class Square:
     """ This class defines an object class with attributes that make sense for 
-        a square to have """
+a square to have """
     pass
