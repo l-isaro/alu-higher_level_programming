@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-" This module contains the class square that contains the attribute size"
+"""
+ This module contains the class square that contains the attribute size
+"""
 
 
 class Square:
