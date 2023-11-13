@@ -8,5 +8,5 @@ class Square:
     """
     the following class defines attributes for an object square with the attribute size
     """
-    __init__(self, size):
-    self.size = size
+    def __init__(self, size):
+    self.__size = size
