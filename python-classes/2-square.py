@@ -2,6 +2,7 @@
 """ This module contains the class square
 """
 
+
 class Square:
     """ This class defines square objects
     Attributes:
@@ -9,7 +10,7 @@ class Square:
     """
     def __init__(self, size=0):
         self.__size = 0
-        
+
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
