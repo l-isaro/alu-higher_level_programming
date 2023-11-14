@@ -2,11 +2,12 @@
 """ This module conatins a class square
 """
 
+
 class Square:
     """ This class defines objects of square
     attributes:
     private size
-    
+
     methods:
     public area
     """
