@@ -15,7 +15,7 @@ class Square:
     area
     """
     def __init__(self, size=0):
-        
+
         self.check_size(size)
 
         self.__size = size
