@@ -11,7 +11,7 @@ class Square:
 
     methods:
     getter method
-    setter method 
+    setter method
     area
     """
     def __init__(self, size=0):
@@ -19,16 +19,16 @@ class Square:
         self.check_size(size)
 
         self.__size = size
-        
+
     @property
     def size(self):
         return self.__size
-    
+
     @size.setter
     def size(self, value):
         self.check_size(value)
         self.__size = value
-        
+
     def area(self):
         return (self.__size ** 2)
 
