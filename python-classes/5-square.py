@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" This module contains the class square that defines 
+""" This module contains the class square that defines
 a square object with size and area
 """
 
@@ -35,6 +35,8 @@ class Square:
     def my_print(self):
         for i in range(self.__size):
             print("#" * self.__size)
+        if self.__size == 0:
+            print()
 
     def check_size(self, value):
         if not isinstance(value, int):
