@@ -63,7 +63,8 @@ class Square:
             raise ValueError("size must be >= 0")
 
     def check_position(self, value):
-        if not (len(value) == 2 and isinstance(value[0], int) \
+        if not (len(value) == 2
+                and isinstance(value[0], int)
                 and isinstance(value[1], int)):
-            raise TypeError("position must  be a tuple \
-                             of 2 positive integers")
+            raise TypeError("position must  be a tuple"
+                             "of 2 positive integers")
