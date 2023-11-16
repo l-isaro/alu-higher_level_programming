@@ -21,7 +21,7 @@ class Square:
         
         self.check_size(size)
         self.__size = size
-        self.check_position
+        self.check_position(position)
         self.__position = position
 
     @property
@@ -43,18 +43,18 @@ class Square:
         self.__position = value
 
     def area(self):
-        return (self.__Size ** 2)
+        return (self.__size ** 2)
 
     def my_print(self):
-        if self.__Size == 0:
+        if self.__size == 0:
             print()
             return
 
         for _ in range(self.__position[1]):
             print()
 
-        for _ in range(self.__Size):
-            print(" " * self.__position[0], "#" * self.__Size, sep='')
+        for _ in range(self.__size):
+            print(" " * self.__position[0], "#" * self.__size, sep='')
 
     def check_size(self, value):
         if not isinstance(value, int):
@@ -63,5 +63,5 @@ class Square:
             raise ValueError("size must be >= 0")
 
     def check_position(self, value):
-        if not (len(value) == 2 and isinstance(value, int)):
+        if not (len(value) == 2 and isinstance(value[0], int) and isinstance(value[1], int)):
             raise TypeError("position must  be an integer of 2 positive integers")
