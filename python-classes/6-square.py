@@ -4,7 +4,7 @@
 
 
 class Square:
-    """ This class defines attributes and methods for the 
+    """ This class defines attributes and methods for the
     square object
 
     attributes:
@@ -18,7 +18,7 @@ class Square:
     my_print
     """
     def __init__(self, size=0, position=(0, 0)):
-        
+
         self.check_size(size)
         self.__size = size
         self.check_position(position)
@@ -63,5 +63,7 @@ class Square:
             raise ValueError("size must be >= 0")
 
     def check_position(self, value):
-        if not (len(value) == 2 and isinstance(value[0], int) and isinstance(value[1], int)):
-            raise TypeError("position must  be an integer of 2 positive integers")
+        if not (len(value) == 2 and isinstance(value[0], int) /
+                and isinstance(value[1], int)):
+            raise TypeError("position must  be a tuple /
+of 2 positive integers")
