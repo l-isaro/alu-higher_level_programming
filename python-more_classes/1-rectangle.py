@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """ This module contains an empty class rectangle
 """
+
+
 class Rectangle:
     """ a class to represent a rectangle
 
@@ -22,7 +24,7 @@ class Rectangle:
     def width(self, value):
         self.check_width(value)
         self.__width = value
-  
+
     @property
     def height(self):
         return self.__height
