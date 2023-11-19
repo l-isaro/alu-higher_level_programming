@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-""" This module contains the class rectangle that 
-has height and width
+""" Module description
+
+This module contains the class rectangle that has height and width
 """
 
 
@@ -94,4 +95,4 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        return cls(width=self.__size, self.__height=size)
+        return cls(self.__width=size, self.__height=size)
