@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+""""
+This module contains the class my_list
+"""
+
+
+class Mylist(list):
+    """" Brief description of the class
+
+    the class inherits from list and performs different
+    operations on a list
+    """
+    def print_sorted(self):
+        """ Returns a sorted list(ascending)"""
+        print(list.sort())
