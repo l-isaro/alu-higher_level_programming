@@ -4,7 +4,7 @@ This module contains the class my_list
 """
 
 
-class Mylist(list):
+class MyList(list):
     """ the class inherits from list and sorts the list"""
 
     def print_sorted(self):
