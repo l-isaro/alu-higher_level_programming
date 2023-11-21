@@ -6,7 +6,8 @@ This module contains the class my_list
 
 class Mylist(list):
 
-    """"Brief description of the class
+    """"
+    Brief description of the class
 
     the class inherits from list and performs different
     operations on a list
