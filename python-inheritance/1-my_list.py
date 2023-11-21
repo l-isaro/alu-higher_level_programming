@@ -5,7 +5,6 @@ This module contains the class my_list
 
 
 class Mylist(list):
-
     """"
     Brief description of the class
 
