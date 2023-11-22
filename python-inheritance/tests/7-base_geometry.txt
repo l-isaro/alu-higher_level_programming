@@ -1,0 +1,12 @@
+# 7-base_geometry.py
+
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+>>> test = BaseGeometry()
+>>> test.area()
+area() is not implemented
+>>> test.integer_validator("distance", -5)
+distance must be greater than 0
+>>> test.integer_validator("width", "nope")
+width must be an integer
+>>> test.integer_validator("length", 0)
+length must be greater than 0
