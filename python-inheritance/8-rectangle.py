@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module to create the class Rectangle"""
+"""This module contains the class Rectangle"""
 
 
 class Rectangle(BaseGeometry):
