@@ -4,10 +4,6 @@
 
 class BaseGeometry:
     """ This class contains the method area"""
-    def __init__(self, name, value):
-        self.name = name
-        self.value = value
-
     def area(self):
         raise Exception("area() is not implemented")
 
