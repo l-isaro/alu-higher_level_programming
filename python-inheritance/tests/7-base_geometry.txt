@@ -3,7 +3,7 @@
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 >>> test = BaseGeometry()
 >>> test.area()
-Traceback (most recent call)
+Traceback (most recent call last):
 Exception: area() is not implemented
 >>> test.integer_validator("distance", -5)
 Traceback (most recent call last):
