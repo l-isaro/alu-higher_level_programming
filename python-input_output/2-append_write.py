@@ -6,6 +6,9 @@ def append_write(filename="", text=""):
     """ This function appends to a file and tells the number                                                                                         
     of characters added"""
     with open(filename, "a+", encoding="utf-8") as f:
+        f.read
+        start = f.tell()
         f.write(text)
+        f.seek(start)
         f.read()
         return f.tell()
