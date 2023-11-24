@@ -8,4 +8,4 @@ import json
 def from_json_string(my_str):
     """ This function returns the JSON representation
     of an object """
-    return json.load(my_str)
+    return json.loads(my_str)
