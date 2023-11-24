@@ -1,4 +1,4 @@
-#!#!/usr/python3
+#!/usr/python3
 """ This module contains a function to_json_string"""
 
 
