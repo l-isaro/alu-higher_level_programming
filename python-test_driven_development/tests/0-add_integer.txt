@@ -6,7 +6,7 @@
 99
 
 >>> add_integer(2, 3)
-4
+5
 
 >>> add_integer(2.5, 4)
 6
@@ -14,7 +14,7 @@
 >>> add_integer(2, 3.5)
 5
 
->>> add_integer("leslie", 4)
+>>> add_integer("6", 4)
 traceback (most recent call last):
 TypeError: a must be an integer
 
