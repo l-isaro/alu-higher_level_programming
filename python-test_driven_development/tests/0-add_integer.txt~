@@ -1,0 +1,23 @@
+#0-add_integer.py
+
+>>> add(1)
+99
+
+>>> add(2, 3)
+4
+
+>>> add(2.5, 4)
+6
+
+>>> add(2, 3.5)
+5
+
+>>> add("leslie", 4)
+traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add(2, "4")
+traceback (most recent call last):
+TypeError: b must be an integer
+
+>>> add()
