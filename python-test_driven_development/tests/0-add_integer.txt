@@ -1,5 +1,7 @@
 #0-add_integer.py
 
+>>> from 0-add_integer import add_integer
+
 >>> add_integer(1)
 99
 
