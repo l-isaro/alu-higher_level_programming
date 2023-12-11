@@ -14,11 +14,11 @@
 >>> add_integer(2, 3.5)
 5
 
->>> add_integer("6", 4)
+>>> add_integer('6', 4)
 traceback (most recent call last):
 TypeError: a must be an integer
 
->>> add_integer(2, "4")
+>>> add_integer(2, '4')
 traceback (most recent call last):
 TypeError: b must be an integer
 
