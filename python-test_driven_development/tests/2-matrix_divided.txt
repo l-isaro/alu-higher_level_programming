@@ -1,0 +1,8 @@
+#2-matrix_divided.py
+
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+>>> matrix_divided([[6, 3, 27], [36, 6, 21]], 3)
+[[2, 1, 9],[12, 2, 7 ]]
+
+
