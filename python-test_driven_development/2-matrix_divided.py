@@ -30,7 +30,7 @@ def matrix_divided(matrix, div):
         for element in matrix[number]:
             if type(element) not in (int, float):
                 raise TypeError('matrix must be a matrix (list of lists) of integers/floats')
-            new_matrix[number].append(element / div)
+            new_element = element / div
+            new_matrix[number].append("{:.2f}".format(new_element))
 
     return new_matrix
-
