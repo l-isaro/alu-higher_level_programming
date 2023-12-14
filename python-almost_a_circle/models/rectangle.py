@@ -86,5 +86,3 @@ class Rectangle(Base):
             for j in range(self.width):
                 print("#", end='')
             print()
-
-
