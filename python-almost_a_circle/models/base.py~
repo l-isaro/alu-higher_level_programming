@@ -1,0 +1,9 @@
+#!/usr/python3
+""" This module contains the class base """
+
+class Base:
+    """ a base class for all the other classes in this project
+        parameters:
+        id(int)"""
+    __nb_objects = 0
+    
