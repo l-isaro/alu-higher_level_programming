@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ contains a function that prints names of a user"""
 
+
 def say_my_name(first_name, last_name=""):
     """ prints the first and last name of a user"""
 
