@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ This module contains the class base"""
 
-from models.base import Base
+from base import Base
 
 
 class Rectangle(Base):
@@ -105,6 +105,9 @@ class Rectangle(Base):
             except IndexError:
                 pass
 
-        if len(args) == 0 and len(kwargs) != 0:
-            for key, value in kwargs.items():
-                self.key = value
+        elif len(kwargs) != 0:
+            self.id = kwargs.get("id", self.id)
+            self.width = kwargs.get("width", self.width)
+            self.height = kwargs.get("height", self.height)
+            self.x = kwargs.get("x", self.x)
+            self.y = kwargs.get("y", self.y)
