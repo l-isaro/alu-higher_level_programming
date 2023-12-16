@@ -94,7 +94,7 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """ updates arguments """
-        if args != 0:
+        if args:
             try:
                 self.id = args[0]
                 self.width = args[1]
@@ -105,7 +105,7 @@ class Rectangle(Base):
             except IndexError:
                 pass
 
-        elif len(kwargs) != 0:
+        elif kwargs:
             self.id = kwargs.get("id", self.id)
             self.width = kwargs.get("width", self.width)
             self.height = kwargs.get("height", self.height)
