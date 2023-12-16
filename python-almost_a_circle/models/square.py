@@ -12,7 +12,7 @@ class Square(Rectangle):
         :param id: uniquely represents the square
     """
     def __init__(self, size, x=0, y=0, id=None):
-        super().__init__(id, x, y, size, size)
+        super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
