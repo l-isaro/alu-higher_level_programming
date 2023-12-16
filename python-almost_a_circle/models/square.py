@@ -32,4 +32,3 @@ class Square(Rectangle):
         :return: The string representation of the square
         """
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.size}"
-
