@@ -43,7 +43,7 @@ class Square(Rectangle):
             self.id = args[0]
             self.size = args[1]
             self.x = args[2]
-            self.size = args[3]
+            self.y = args[3]
 
         elif kwargs:
             self.id = kwargs.get("id", self.id)
