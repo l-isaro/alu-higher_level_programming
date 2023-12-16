@@ -28,4 +28,3 @@ class Square(Rectangle):
     def __str__(self):
         """ provides a string representation of the object"""
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.size}"
-
