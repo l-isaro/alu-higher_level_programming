@@ -36,3 +36,18 @@ class Square(Rectangle):
         :return: The string representation of the square
         """
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.size}"
+
+    def update(self, *args, **kwargs):
+        """ updates the attributes of the class"""
+        if args:
+            self.id = args[0]
+            self.size = args[1]
+            self.x = args[2]
+            self.size = args[3]
+
+        elif kwargs:
+            self.id = kwargs.get("id", self.id)
+            self.size = kwargs.get("size", self.size)
+            self.x = kwargs.get("x", self.x)
+            self.y = kwargs.get("y", self.y)
+
