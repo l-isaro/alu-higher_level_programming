@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ This module contains the class base"""
 
-from models.base import Base
+from base import Base
 
 
 class Rectangle(Base):

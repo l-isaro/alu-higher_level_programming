@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ This module contains the class Square """
 
-from models.rectangle import Rectangle
+from rectangle import Rectangle
 
 
 class Square(Rectangle):
@@ -26,5 +26,10 @@ class Square(Rectangle):
         self.height = value
 
     def __str__(self):
-        """ provides a string representation of the object"""
+        """
+        Return the string representation of the square
+
+        :return: The string representation of the square
+        """
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.size}"
+
