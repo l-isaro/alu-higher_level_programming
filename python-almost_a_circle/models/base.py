@@ -31,4 +31,3 @@ class Base:
                 file.write(cls.to_json_string(list_obj))
             else:
                 file.write(cls.to_json_string([]))
-
