@@ -108,4 +108,3 @@ class Rectangle(Base):
         if len(args) == 0 and len(kwargs) != 0:
             for key, value in kwargs.items():
                 self.key = value
-
