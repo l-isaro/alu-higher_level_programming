@@ -33,3 +33,8 @@ class Base:
                 new_list.append(cls.to_dictionary(i))
         with open(file_name, "w") as file:
             file.write(cls.to_json_string(new_list))
+
+    @staticmethod
+    def from_json_string(json_string):
+        """ returns the list of the json representation of argument"""
+        return json.loads(json_string)
