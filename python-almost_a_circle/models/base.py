@@ -28,4 +28,4 @@ class Base:
         """ writes json representation to a file """
         file_name = cls.__name__ + ".json"
         with open(file_name, "w") as file:
-            file.write(cls.to_json_string(list_objs))
+            file.write(cls.to_json_string(cls.to_dictionary() for obj in list_objs))
