@@ -3,6 +3,7 @@
 
 from models.rectangle import Rectangle
 
+
 class Square(Rectangle):
     """ a class that represents a circle
         :param size: represents the size of the rectangle
@@ -11,7 +12,7 @@ class Square(Rectangle):
         :param id: uniquely represents the square
     """
     def __init__(self, size, x=0, y=0, id=None):
-        super().__init__(id, x, y, width, height)
+        super().__init__(id, x, y, size, size)
 
     @property
     def size(self):
