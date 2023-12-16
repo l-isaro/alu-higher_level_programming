@@ -40,10 +40,13 @@ class Square(Rectangle):
     def update(self, *args, **kwargs):
         """ updates the attributes of the class"""
         if args:
-            self.id = args[0]
-            self.size = args[1]
-            self.x = args[2]
-            self.y = args[3]
+            try:
+                self.id = args[0]
+                self.size = args[1]
+                self.x = args[2]
+                self.y = args[3]
+            except IndexError:
+                pass
 
         elif kwargs:
             self.id = kwargs.get("id", self.id)
