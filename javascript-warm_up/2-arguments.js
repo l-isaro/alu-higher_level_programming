@@ -1,9 +1,10 @@
 #!/usr/bin/node
+const arguments = process.argv.slice(2);
 
-if(Process.argv.length === 2) {
-    console.log('No argument')
-} else if (Process.argv.length === 3) {
-    console.log('Argument found')
+if (arguments.length > 1){
+    console.log('Arguments found');
+} else if (arguments.length == 0) {
+    console.log("No argument");
 } else {
-    console.log('Arguments found')
+    console.log("Argument found");
 }
