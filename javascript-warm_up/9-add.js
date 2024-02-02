@@ -2,7 +2,7 @@
 
 const args = process.argv.slice(2);
 function add(a, b) {
-  result = parseInt(a) + parseInt(b);
+  let result = parseInt(a) + parseInt(b);
   console.log(result);
 }
 
