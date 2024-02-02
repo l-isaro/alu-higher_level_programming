@@ -9,7 +9,7 @@ if (isNaN(fact) === true) {
   console.log(result);
 }
 
-//prettier-ignore
+// prettier-ignore
 function Factorial (num) {
   if (num === 1) {
     return 1;
