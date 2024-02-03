@@ -3,7 +3,7 @@
 const OriginalSquare = require('./5-square');
 
 module.exports = class Square extends OriginalSquare {
-  charprint (c) {
+  charPrint (c) {
     if (c) {
       for (let index = 0; index < this.height; index++) {
         console.log('C'.repeat(this.width));   
