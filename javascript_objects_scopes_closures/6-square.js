@@ -6,7 +6,7 @@ module.exports = class Square extends OriginalSquare {
   charPrint (c) {
     if (c) {
       for (let index = 0; index < this.height; index++) {
-        console.log('C'.repeat(this.width));   
+        console.log(c.repeat(this.width));
       }
     } else {
       for (let index = 0; index < this.height; index++) {
